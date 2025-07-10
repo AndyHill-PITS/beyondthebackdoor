@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
-  eleventyConfig.addPassthroughCopy("_includes/admin");
+  eleventyConfig.addPassthroughCopy("admin");
 
   return {
     dir: {
