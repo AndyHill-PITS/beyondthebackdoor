@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <title>Content Manager</title>
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </head>
   <body>
+    <div id="nc-root"></div>
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script>
-      window.CMS_MANUAL_INIT = true;
-      window.addEventListener("DOMContentLoaded", () => {
-        CMS.init();
+      // Wait for CMS script to load before calling init
+      window.addEventListener("load", function () {
+        if (typeof CMS !== "undefined") {
+          CMS.init();
+        }
       });
     </script>
-    <div id="nc-root"></div>
   </body>
 </html>
