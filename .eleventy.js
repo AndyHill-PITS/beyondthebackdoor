@@ -1,10 +1,12 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("login.html");
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
-  eleventyConfig.addPassthroughCopy("admin");
-  eleventyConfig.addPassthroughCopy("_redirects"); // << THIS is key
-  eleventyConfig.addPassthroughCopy({ "admin/cms.html": "admin/cms.html" });
+  eleventyConfig.addPassthroughCopy("login.html");
+  eleventyConfig.addPassthroughCopy("_redirects");
+
+  // Passthrough only the specific CMS files
+  eleventyConfig.addPassthroughCopy({ "static-admin/cms.html": "admin/index.html" });
+  eleventyConfig.addPassthroughCopy({ "admin/config.yml": "admin/config.yml" });
 
   return {
     dir: {
