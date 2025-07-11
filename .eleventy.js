@@ -1,9 +1,8 @@
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("admin");
-  
-  eleventyConfig.addPassthroughCopy({ "./_redirects": "./_redirects" });
+  eleventyConfig.addPassthroughCopy("_redirects"); // << THIS is key
 
   return {
     dir: {

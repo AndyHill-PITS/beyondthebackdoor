@@ -1,8 +1,6 @@
 backend:
   name: git-gateway
   branch: main
-  identity_url: https://visionary-sopapillas-7a6026.netlify.app/.netlify/identity
-
 
 media_folder: "images"
 public_folder: "/images"
