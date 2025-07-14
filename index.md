@@ -8,6 +8,5 @@ intro_text: Welcome to Beyond the Back Door — where your outdoor space becomes
   something special.
 section_images:
   - image: /images/full-garden-v3.jpg
-  - image: /images/full-garden-v4.jpg
 ---
 T﻿est content
