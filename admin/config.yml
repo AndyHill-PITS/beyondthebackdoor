@@ -1,58 +1,30 @@
-
 backend:
-  name: git-gateway
   branch: main
-
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
-
+  name: git-gateway
 collections:
-  - name: "home"
-    label: "Home"
-    file: "src/pages/index.md"
-    fields:
-      - { label: "Page Title", name: "title", widget: "string" }
-      - { label: "Welcome Heading", name: "welcome_heading", widget: "string" }
-      - { label: "Intro Text", name: "intro_text", widget: "text" }
-      - label: "Images"
-        name: "section_images"
-        widget: "list"
-        allow_add: true
-        field:
-          label: "Image"
-          name: "image"
-          widget: "image"
-
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Our Story"
-        name: "our-story"
-        file: "src/pages/our-story.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Services"
-        name: "services"
-        file: "src/pages/services.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Gallery"
-        name: "gallery"
-        file: "src/pages/gallery.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Testimonials"
-        name: "testimonials"
-        file: "src/pages/testimonials.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Contact"
-        name: "contact"
-        file: "src/pages/contact.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+- files:
+  - fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Welcome Heading
+      name: welcome_heading
+      widget: string
+    - label: Intro Text
+      name: intro_text
+      widget: text
+    - fields:
+      - label: Image
+        name: image
+        widget: image
+      label: Section Images
+      name: section_images
+      widget: list
+    file: index.md
+    label: Home
+    name: home
+  folder: ''
+  label: Pages
+  name: pages
+media_folder: images
+public_folder: /images

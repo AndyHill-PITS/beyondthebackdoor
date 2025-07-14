@@ -13,11 +13,11 @@
   <main>
     
 <section>
-  <h2>{{ page.welcome_heading }}</h2>
-  <p>{{ page.intro_text }}</p>
+  <h2>{{ welcome_heading }}</h2>
+  <p>{{ intro_text }}</p>
 
   <div class="section-image">
-    {% for img in page.section_images %}
+    {% for img in section_images %}
       <img src="{{ img.image }}" alt="Garden feature" />
     {% endfor %}
   </div>
