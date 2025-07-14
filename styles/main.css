@@ -62,3 +62,17 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* Responsive styling for section images */
+.section-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+.section-image {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
