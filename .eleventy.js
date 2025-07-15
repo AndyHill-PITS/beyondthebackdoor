@@ -1,4 +1,12 @@
+const markdownIt = require("markdown-it");
+const md = new markdownIt();
+
 module.exports = function (eleventyConfig) {
+  // Add markdown filter
+  eleventyConfig.addFilter("markdown", (content) => {
+    return md.render(content);
+  });
+
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("login.html");

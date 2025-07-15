@@ -14,7 +14,10 @@
     
 <section>
   <h2>{{ welcome_heading }}</h2>
-  {{ introText | nl2br | safe }}
+  {% if introText %}
+    {{ introText | markdown | safe }}
+  {% endif %}
+
 
   <div class="section-image">
     {% for img in section_images %}
