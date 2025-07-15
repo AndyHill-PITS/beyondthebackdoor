@@ -7,6 +7,6 @@ intro_text: Welcome to Beyond the Back Door — where your outdoor space becomes
   haven, or a stylish place to entertain, we can help transform your garden into
   something special.
 section_images:
-  - image: /images/full-garden-v3.jpg
+  - image: /images/uploads/full-garden-v3.jpg
 ---
 T﻿est content
