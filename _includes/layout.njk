@@ -14,7 +14,7 @@
     
 <section>
   <h2>{{ welcome_heading }}</h2>
-  <p>{{ intro_text }}</p>
+  {{ introText | nl2br | safe }}
 
   <div class="section-image">
     {% for img in section_images %}

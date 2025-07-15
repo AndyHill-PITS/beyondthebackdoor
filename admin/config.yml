@@ -15,7 +15,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Welcome Heading", name: "welcome_heading", widget: "string" }
-          - { label: "Intro Text", name: "intro_text", widget: "text" }
+          - { label: "Intro Text", name: "intro_text", widget: "markdown" }
           - label: "Section Images"
             name: "section_images"
             widget: "list"
