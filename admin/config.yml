@@ -7,15 +7,15 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "home"
-    label: "Home"
+    label: "Home Page"
     files:
-      - label: "Homepage"
+      - label: "Homepage Content"
         name: "homepage"
         file: "src/pages/index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Welcome Heading", name: "welcome_heading", widget: "string" }
-          - { label: "Intro Text", name: "introText", widget: "markdown" }
+          - { label: "Intro Text", name: "intro_text", widget: "markdown" }
           - label: "Section Images"
             name: "section_images"
             widget: "list"
@@ -25,45 +25,60 @@ collections:
 
   - name: "ourstory"
     label: "Our Story"
-    file: "src/pages/our-story.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
+    files:
+      - label: "Our Story Page"
+        name: "ourstory"
+        file: "src/pages/ourstory.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "services"
     label: "Services"
-    file: "src/pages/services.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
+    files:
+      - label: "Services Page"
+        name: "services"
+        file: "src/pages/services.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "testimonials"
     label: "Testimonials"
-    file: "src/pages/testimonials.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
+    files:
+      - label: "Testimonials Page"
+        name: "testimonials"
+        file: "src/pages/testimonials.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "gallery"
     label: "Gallery"
-    file: "src/pages/gallery.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - label: "Image Groups"
-        name: "groups"
-        widget: "list"
+    files:
+      - label: "Gallery Page"
+        name: "gallery"
+        file: "src/pages/gallery.md"
         fields:
-          - { label: "Group Title", name: "group_title", widget: "string", required: false }
-          - label: "Images"
-            name: "images"
+          - { label: "Title", name: "title", widget: "string" }
+          - label: "Image Groups"
+            name: "groups"
             widget: "list"
             fields:
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Caption", name: "caption", widget: "string", required: false }
+              - { label: "Group Name", name: "group_name", widget: "string" }
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Caption", name: "caption", widget: "string", required: false }
 
   - name: "contact"
     label: "Contact"
-    file: "src/pages/contact.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Intro Text", name: "content", widget: "markdown" }
+    files:
+      - label: "Contact Page"
+        name: "contact"
+        file: "src/pages/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro Text", name: "intro_text", widget: "markdown" }
