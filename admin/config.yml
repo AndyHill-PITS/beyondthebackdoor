@@ -23,12 +23,13 @@ collections:
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Caption", name: "caption", widget: "string", required: false }
 
-  - name: "ourstory"
+- name: "our-story"
     label: "Our Story"
+    delete: false
     files:
-      - label: "Our Story Page"
-        name: "ourstory"
-        file: "src/pages/ourstory.md"
+      - label: "Our Story"
+        name: "our-story"
+        file: "src/pages/our-story.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
