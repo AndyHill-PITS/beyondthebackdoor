@@ -1,6 +1,6 @@
 ---
 title: "Our Story"
-layout: "our-story.njk"
+layout: our-story.njk
 permalink: "our-story/index.html"
 body: >
   Welcome to Beyond the Back Door.  
