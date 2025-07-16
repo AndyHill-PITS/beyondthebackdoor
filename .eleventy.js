@@ -18,8 +18,8 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: ".",
-      includes: "_includes",
+      input: "src",
+      includes: "../_includes",
       output: "_site"
     },
     markdownTemplateEngine: "njk"

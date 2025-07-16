@@ -1,0 +1,16 @@
+---
+layout: layout.njk
+---
+<h2>{{ title }}</h2>
+<div class="gallery">
+  {% for group in groups %}
+    <h3>{{ group.group_title }}</h3>
+    <div class="thumbnail-group">
+      {% for img in group.images %}
+        <a href="{{ img.image }}" data-lightbox="gallery-{{ loop.index0 }}">
+          <img src="{{ img.image }}" alt="{{ img.caption }}" />
+        </a>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

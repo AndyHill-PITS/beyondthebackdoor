@@ -6,18 +6,64 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: "home"
+    label: "Home"
     files:
-      - label: "Home"
-        name: "home"
-        file: "index.md"
+      - label: "Homepage"
+        name: "homepage"
+        file: "src/pages/index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Welcome Heading", name: "welcome_heading", widget: "string" }
-          - { label: "Intro Text", name: "intro_text", widget: "markdown" }
+          - { label: "Intro Text", name: "introText", widget: "markdown" }
           - label: "Section Images"
             name: "section_images"
             widget: "list"
             fields:
               - { label: "Image", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+
+  - name: "ourstory"
+    label: "Our Story"
+    file: "src/pages/our-story.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+
+  - name: "services"
+    label: "Services"
+    file: "src/pages/services.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    file: "src/pages/testimonials.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+
+  - name: "gallery"
+    label: "Gallery"
+    file: "src/pages/gallery.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Image Groups"
+        name: "groups"
+        widget: "list"
+        fields:
+          - { label: "Group Title", name: "group_title", widget: "string", required: false }
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+
+  - name: "contact"
+    label: "Contact"
+    file: "src/pages/contact.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Intro Text", name: "content", widget: "markdown" }
