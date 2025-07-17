@@ -3,7 +3,7 @@
 {% block content %}
   <main class="our-story">
     <div class="container">
-      {{ content | safe }}
+      {{ content | markdown | safe }}
     </div>
   </main>
 {% endblock %}
