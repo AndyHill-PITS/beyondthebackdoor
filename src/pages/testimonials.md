@@ -1,5 +1,7 @@
 ---
 title: Testimonials
+layout: testimonials.njk
+permalink: testimonials/index.html
 welcome_heading: What our clients are saying about working with us
 intro_text: >
     At Beyond the Back Door, we're lucky to have worked with some wonderful customers, here is what some of them had to say
@@ -16,6 +18,5 @@ testimonials:
       the outcome
     author: Archie
     location: Hertfordshire
-layout: testimonials.njk
-permalink: testimonials/index.html
 ---
+<p>THIS SHOULD ONLY APPEAR IF TEMPLATING IS WORKING</p>
