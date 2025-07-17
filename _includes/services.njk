@@ -1,7 +1,22 @@
----
-layout: layout.njk
----
-<h2>{{ title }}</h2>
-<div class="page-content">
-  {{ body | safe }}
-</div>
+{% extends "layout.njk" %}
+
+{% block content %}
+  <main class="services">
+    <div class="container">
+      <h2>{{ welcome_heading }}</h2>
+      <div class="intro-text">
+        {{ intro_text | markdown | safe }}
+      </div>
+      {% if section_images %}
+        <div class="section-image">
+          {% for item in section_images %}
+            <img src="{{ item.image }}" alt="{{ item.caption | default('Section image') }}">
+            {% if item.caption %}
+              <p class="caption">{{ item.caption }}</p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </main>
+{% endblock %}

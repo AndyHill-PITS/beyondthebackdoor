@@ -44,13 +44,20 @@ collections:
   - name: "services"
     label: "Services"
     files:
-      - label: "Services Page"
+      - file: "src/pages/services.md"
+        label: "Services"
         name: "services"
-        file: "src/pages/services.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-
+          - { label: "Welcome Heading", name: "welcome_heading", widget: "string" }
+          - { label: "Intro Text", name: "intro_text", widget: "markdown" }
+          - label: "Section Images"
+            name: "section_images"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+  
   - name: "testimonials"
     label: "Testimonials"
     files:
