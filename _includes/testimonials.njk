@@ -1,17 +1,22 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-  <main class="testimonials-page">
+  <main class="testimonials">
     <div class="container">
-      <h2>{{ title }}</h2>
-      <p>{{ intro_text | markdown | safe }}</p>
+      {% if intro_text %}
+        <p>{{ intro_text | markdown | safe }}</p>
+      {% endif %}
 
-      {% for item in testimonials_list %}
-        <blockquote class="testimonial">
-          <p>“{{ item.quote }}”</p>
-          <footer>– {{ item.author }}{% if item.location %}, {{ item.location }}{% endif %}</footer>
-        </blockquote>
-      {% endfor %}
+      {% if testimonials %}
+        {% for t in testimonials %}
+          <div class="testimonial">
+            <blockquote>
+              “{{ t.quote }}”
+            </blockquote>
+            <p class="author">– {{ t.author }}{% if t.location %}, {{ t.location }}{% endif %}</p>
+          </div>
+        {% endfor %}
+      {% endif %}
     </div>
   </main>
 {% endblock %}
