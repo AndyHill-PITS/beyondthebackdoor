@@ -66,9 +66,10 @@ collections:
         name: "testimonials"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Welcome Heading", name: "welcome_heading", widget: "string" }
           - { label: "Intro Text", name: "intro_text", widget: "markdown", required: false }
           - label: "Testimonials"
-            name: "testimonials_list"
+            name: "testimonials"
             widget: "list"
             fields:
               - { label: "Quote", name: "quote", widget: "text" }
