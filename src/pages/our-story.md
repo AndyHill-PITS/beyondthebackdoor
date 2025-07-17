@@ -9,4 +9,7 @@ intro_text: >
   With thoughtful design, even the smallest outdoor space can be made to feel like a natural extension of your home, so if you are stuck for ideas as to how to make the most of the space you have, then get in touch and we'll do what we can to help.
 section_images:
   - image: /images/uploads/full-garden-v3.jpg
+layout: our-story.njk
+permalink: our-story/index.html
 ---
+
