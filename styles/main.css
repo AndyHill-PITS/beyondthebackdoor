@@ -66,6 +66,22 @@ footer {
   padding: 1rem;
 }
 
+.testimonial {
+  background-color: #e9e7e1;
+  border-left: 6px solid #4a5f39;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.testimonial p {
+  margin: 0 0 0.5em;
+}
+
+.testimonial footer {
+  font-style: italic;
+  color: #4a5f39;
+}
+
 /* Responsive styling for section images */
 .section-image img {
   max-width: 100%;
