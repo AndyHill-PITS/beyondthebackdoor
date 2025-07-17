@@ -10,6 +10,10 @@ testimonials_list:
       is now a true extension of our home.
     author: Eric & Monica
     location: Yorkshire
+  - quote: From start to finish, a pleasure to work with, and we're delighted with
+      the outcome
+    author: Archie
+    location: Hertfordshire
 layout: testimonials.njk
 permalink: testimonials/index.html
 ---
