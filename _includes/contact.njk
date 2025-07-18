@@ -5,20 +5,29 @@
     <h2>{{ welcome_heading }}</h2>
     <p>{{ intro_text | safe }}</p>
 
-    <form action="https://formspree.io/f/myzjvpld" method="POST">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
+    <form action="https://formspree.io/f/your-id" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name"><strong>Name</strong></label>
+        <input type="text" id="name" name="name" required>
+      </div>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <div class="form-group">
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" id="email" name="email" required>
+      </div>
 
-      <label for="phone">Phone Number</label>
-      <input type="text" id="phone" name="phone">
+      <div class="form-group">
+        <label for="phone"><strong>Phone Number</strong></label>
+        <input type="text" id="phone" name="phone">
+      </div>
 
-      <label for="message"><strong>What are you looking to achieve - include as much or as little detail as you like!</strong></label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+      <div class="form-group">
+        <label for="message"><strong>What are you looking to achieve – include as much or as little detail as you like!</strong></label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
 
       <button type="submit">Send Enquiry</button>
     </form>
+
   </div>
 {% endblock %}
