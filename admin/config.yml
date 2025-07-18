@@ -2,53 +2,86 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "src/images/uploads"
+media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "home"
-    label: "Home"
-    file: "src/index.md"
-    fields:
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "welcome_heading", label: "Welcome Heading", widget: "string" }
-      - { name: "intro_text", label: "Intro Text", widget: "text" }
-      - label: "Section Images"
-        name: "section_images"
-        widget: "list"
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - file: "src/pages/index.md"
+        label: "Homepage Content"
+        name: "homepage"
         fields:
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Caption", name: "caption", widget: "string", required: false }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
+          - { label: "Intro text", name: "intro_text", widget: "text" }
+          - { label: "Section Images", name: "section_images", widget: "list", allow_add: true, fields: [
+              { label: "Image", name: "image", widget: "image" },
+              { label: "Alt text", name: "alt", widget: "string" }
+            ] }
 
-  - name: "our-story"
+  - name: "ourstory"
     label: "Our Story"
-    file: "src/pages/our-story.md"
-    fields:
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "welcome_heading", label: "Welcome Heading", widget: "string" }
-      - { name: "intro_text", label: "Intro Text", widget: "text" }
+    files:
+      - file: "src/pages/our-story.md"
+        label: "Our Story Content"
+        name: "ourstory"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
+          - { label: "Intro text", name: "intro_text", widget: "text" }
 
   - name: "services"
     label: "Services"
-    file: "src/pages/services.md"
-    fields:
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "welcome_heading", label: "Welcome Heading", widget: "string" }
-      - { name: "intro_text", label: "Intro Text", widget: "text" }
+    files:
+      - file: "src/pages/services.md"
+        label: "Services Content"
+        name: "services"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
+          - { label: "Intro text", name: "intro_text", widget: "text" }
 
   - name: "testimonials"
     label: "Testimonials"
-    file: "src/pages/testimonials.md"
-    fields:
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "welcome_heading", label: "Welcome Heading", widget: "string" }
-      - { name: "intro_text", label: "Intro Text", widget: "text" }
-      - label: "Testimonials"
+    files:
+      - file: "src/pages/testimonials.md"
+        label: "Testimonials Content"
         name: "testimonials"
-        widget: "list"
         fields:
-          - { label: "Quote", name: "quote", widget: "text" }
-          - { label: "Author", name: "author", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
+          - { label: "Intro text", name: "intro_text", widget: "text" }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+
+  - name: "contact"
+    label: "Contact"
+    files:
+      - file: "src/pages/contact.md"
+        label: "Contact Content"
+        name: "contact"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
+          - { label: "Intro text", name: "intro_text", widget: "text" }
+
 
   - name: "gallery"
     label: "Gallery"
@@ -69,14 +102,3 @@ collections:
                 fields:
                   - { label: "Image", name: "image", widget: "image" }
                   - { label: "Caption", name: "caption", widget: "string", required: false }
-
-  - name: "contact"
-    label: "Contact"
-    files:
-      - label: "Contact Page"
-        name: "contact"
-        file: "src/pages/contact.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { name: "welcome_heading", label: "Welcome Heading", widget: "string" }
-          - { label: "Intro Text", name: "intro_text", widget: "markdown" }
