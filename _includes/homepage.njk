@@ -2,7 +2,7 @@
 
 {% block content %}
   <h2>{{ welcome_heading }}</h2>
-  <p>{{ intro_text }}</p>
+  <p>{{ intro_text | markdown | safe }}</p>
 
   {% if section_images %}
     <div class="section-images">
