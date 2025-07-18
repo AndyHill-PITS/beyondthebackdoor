@@ -21,6 +21,6 @@ intro_text: >-
 section_images:
   - image: /images/uploads/full-garden-v3.jpg
     caption: Sample Garden Project
-layout: services.njk
+layout: services
 permalink: services/index.html
 ---

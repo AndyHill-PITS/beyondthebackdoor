@@ -11,38 +11,11 @@
   {% include "nav.njk" %}
 
   <main>
-    
-<section>
-  <h2>{{ welcome_heading }}</h2>
-  {% if intro_text %}
-    {{ intro_text | markdown | safe }}
-  {% endif %}
-
-
-  <div class="section-image">
-    {% for img in section_images %}
-      <img src="{{ img.image }}" alt="Garden feature" />
-    {% endfor %}
-  </div>
-</section>
-
-  {{ content | safe }}
+  {% block content %}{% endblock %}
   </main>
 
   {% include "footer.njk" %}
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            window.location.href = "/admin/";
-          });
-        }
-      });
-    window.netlifyIdentity.init();
-  }
-</script>
+  
   
 </body>
 </html>

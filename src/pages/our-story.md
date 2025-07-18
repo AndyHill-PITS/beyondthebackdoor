@@ -19,6 +19,6 @@ intro_text: >-
   Whatever your situation – large space or small, whether you want a full scale revamp, or just some minor enhancements, whether you spend a lot of time in the garden, or just like to admire it from the kitchen window, give us a call, and we’ll work with you to develop some ideas. If you really like what we come up with, we’ll work with you to help you bring them to life.
 section_images:
   - image: /images/uploads/full-garden-v3.jpg
-layout: our-story.njk
+layout: our-story
 permalink: our-story/index.html
 ---

@@ -16,6 +16,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "static-admin/cms.html": "admin/index.html" });
   eleventyConfig.addPassthroughCopy({ "admin/config.yml": "admin/config.yml" });
 
+  eleventyConfig.addLayoutAlias("our-story", "our-story.njk");
+  eleventyConfig.addLayoutAlias("services", "services.njk");
+  eleventyConfig.addLayoutAlias("testimonials", "testimonials.njk");
+  eleventyConfig.addLayoutAlias("contact", "contact.njk");
+  eleventyConfig.addLayoutAlias("gallery", "gallery.njk");
+
   return {
     dir: {
       input: "src",

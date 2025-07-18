@@ -1,0 +1,19 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <h2>{{ welcome_heading }}</h2>
+  <p>{{ intro_text }}</p>
+
+  {% if section_images %}
+    <div class="section-images">
+      {% for item in section_images %}
+        <figure>
+          <img src="{{ item.image }}" alt="{{ item.caption | default('') }}">
+          {% if item.caption %}
+            <figcaption>{{ item.caption }}</figcaption>
+          {% endif %}
+        </figure>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endblock %}

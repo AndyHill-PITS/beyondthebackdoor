@@ -1,27 +1,28 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-  <h2>{{ welcome_heading }}</h2>
-  <p>{{ intro_text }}</p>
+  <section class="testimonials-section">
 
-  <p><strong>Template loaded.</strong></p>
 
-  <h3>Dump of page.testimonials</h3>
-  <pre>{{ page.testimonials | dump }}</pre>
+    <div class="container">
+      <h2>{{ welcome_heading }}</h2>
+      <div class="text-block">
+        {{ intro_text | markdown | safe }}
+      </div>
+    </div>
 
-  <h3>Dump of testimonials</h3>
-  <pre>{{ testimonials | dump }}</pre>
 
-  {% if testimonials %}
-    <h3>Looping through testimonials:</h3>
-    <ul>
-      {% for t in testimonials %}
-        <li>
-          "{{ t.quote }}" — <strong>{{ t.author }}</strong> ({{ t.location }})
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p><em>No testimonials available.</em></p>
-  {% endif %}
+    {% if testimonials %}
+      <ul class="testimonials-list">
+        {% for t in testimonials %}
+          <li class="testimonial">
+            "{{ t.quote }}" – <strong>{{ t.author }}</strong> ({{ t.location }})
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p><em>No testimonials available.</em></p>
+    {% endif %}
+
+  </section>
 {% endblock %}

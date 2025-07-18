@@ -1,22 +1,22 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-<main class="our-story">
+  <main class="our-story">
 
-  <div class="container">
-    <h2>{{ welcome_heading }}</h2>
-    <div class="text-block">
-      {{ intro_text | markdown | safe }}
+    <div class="container">
+      <h2>{{ welcome_heading }}</h2>
+      <div class="text-block">
+        {{ intro_text | markdown | safe }}
+      </div>
+
+      {% if section_images %}
+        <div class="section-images">
+          {% for item in section_images %}
+            <img src="/images/uploads/full-garden-v3.jpg" alt="A space to relax and unwind" />
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
 
-    {% if section_images %}
-      <div class="section-images">
-        {% for item in section_images %}
-          <img src="/images/uploads/full-garden-v3.jpg" alt="A space to relax and unwind" />
-        {% endfor %}
-      </div>
-    {% endif %}
-  </div>
-
-</main>
+  </main>
 {% endblock %}

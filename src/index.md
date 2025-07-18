@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: homepage.njk
 title: Home
 welcome_heading: Welcome
 intro_text: >-

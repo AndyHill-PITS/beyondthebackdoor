@@ -1,6 +1,6 @@
 ---
 title: "Gallery"
-layout: gallery.njk
+layout: gallery
 permalink: "gallery/index.html"
 groups:
   - group_title: "Front Garden Makeovers"
