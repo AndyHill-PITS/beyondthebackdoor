@@ -9,7 +9,7 @@ collections:
   - name: "homepage"
     label: "Homepage"
     files:
-      - file: "src/pages/index.md"
+      - file: "src/index.md"
         label: "Homepage Content"
         name: "homepage"
         fields:
@@ -17,7 +17,7 @@ collections:
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
           - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
-          - { label: "Intro text", name: "intro_text", widget: "text" }
+          - { label: "Intro text", name: "intro_text", widget: "markdown" }
           - { label: "Section Images", name: "section_images", widget: "list", allow_add: true, fields: [
               { label: "Image", name: "image", widget: "image" },
               { label: "Alt text", name: "alt", widget: "string" }
@@ -34,7 +34,7 @@ collections:
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
           - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
-          - { label: "Intro text", name: "intro_text", widget: "text" }
+          - { label: "Intro text", name: "intro_text", widget: "markdown" }
 
   - name: "services"
     label: "Services"
@@ -47,7 +47,7 @@ collections:
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
           - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
-          - { label: "Intro text", name: "intro_text", widget: "text" }
+          - { label: "Intro text", name: "intro_text", widget: "markdown" }
 
   - name: "testimonials"
     label: "Testimonials"
@@ -60,7 +60,7 @@ collections:
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
           - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
-          - { label: "Intro text", name: "intro_text", widget: "text" }
+          - { label: "Intro text", name: "intro_text", widget: "markdown" }
           - label: "Testimonials"
             name: "testimonials"
             widget: "list"
@@ -80,7 +80,7 @@ collections:
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
           - { label: "Welcome heading", name: "welcome_heading", widget: "string" }
-          - { label: "Intro text", name: "intro_text", widget: "text" }
+          - { label: "Intro text", name: "intro_text", widget: "markdown" }
 
 
   - name: "gallery"
