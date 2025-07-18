@@ -1,31 +1,22 @@
----
----
-title: Contact Us
-layout: layout.njk
-permalink: contact/index.html
----
+{% extends "layout.njk" %}
 
 {% block content %}
   <div class="content-wrapper">
-    {% if welcome_heading %}
-      <h2>{{ welcome_heading }}</h2>
-    {% endif %}
-    {% if intro_text %}
-      <p>{{ intro_text | markdown | safe }}</p>
-    {% endif %}
+    <h2>{{ welcome_heading }}</h2>
+    <p>{{ intro_text | safe }}</p>
 
-    <form action="https://formspree.io/f/myzjvpld" method="POST" class="contact-form">
-      <label for="name"><strong>Name</strong></label>
-      <input type="text" id="name" name="name" required />
+    <form action="https://formspree.io/f/myzjvpld" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
 
-      <label for="email"><strong>Email</strong></label>
-      <input type="email" id="email" name="email" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
 
-      <label for="phone"><strong>Phone Number</strong></label>
-      <input type="tel" id="phone" name="phone" />
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone">
 
       <label for="message"><strong>What are you looking to achieve - include as much or as little detail as you like!</strong></label>
-      <textarea id="message" name="message" rows="6" required></textarea>
+      <textarea id="message" name="message" rows="5" required></textarea>
 
       <button type="submit">Send Enquiry</button>
     </form>
