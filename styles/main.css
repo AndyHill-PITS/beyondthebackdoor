@@ -58,7 +58,12 @@ section {
   max-width: 900px;
   margin: auto;
 }
-
+.content-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
 footer {
   background-color: #4b6b43;
   color: white;

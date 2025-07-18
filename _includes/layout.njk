@@ -11,7 +11,9 @@
   {% include "nav.njk" %}
 
   <main>
-  {% block content %}{% endblock %}
+    <div class="content-wrapper">
+      {% block content %}{% endblock %}
+    </div>
   </main>
 
   {% include "footer.njk" %}
