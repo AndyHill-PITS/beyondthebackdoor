@@ -78,4 +78,5 @@ collections:
         file: "src/pages/contact.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { name: "welcome_heading", label: "Welcome Heading", widget: "string" }
           - { label: "Intro Text", name: "intro_text", widget: "markdown" }
