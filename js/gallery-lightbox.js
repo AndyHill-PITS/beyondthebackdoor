@@ -22,6 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
       currentIndex = currentGroup.indexOf(img);
       showImage(currentGroup[currentIndex]);
       lightbox.style.display = "flex";
+	  
+	  // Scroll to top to ensure full visibility of the lightbox
+      window.scrollTo({ top: 0, behavior: "instant" });  // or use "smooth" if you prefer
     });
   });
 
