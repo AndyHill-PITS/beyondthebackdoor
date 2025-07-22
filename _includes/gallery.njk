@@ -13,13 +13,13 @@
   {% endif %}
 
   {% for group in groups %}
-    <h3>{{ group.title }}</h3>
+    <h3>{{ goup.group_title }}</h3>
     <div class="gallery-group">
       {% for image in group.images %}
         <img 
           src="{{ image.image }}" 
           alt="{{ image.alt | default(image.caption) }}" 
-          data-group="{{ group.title | slug }}" 
+          data-group="{{ group_title | slug }}" 
           data-caption="{{ image.caption }}" 
           onclick="openLightbox(this)" />
       {% endfor %}
