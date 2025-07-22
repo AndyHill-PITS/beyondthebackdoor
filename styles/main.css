@@ -230,6 +230,7 @@ footer {
   position: relative;
   max-width: 90%;
   max-height: 90%;
+  margin: auto;
 }
 
 .lightbox img {
@@ -238,6 +239,7 @@ footer {
   display: block;
   margin: 0 auto;
   border-radius: 6px;
+  object-fit: contain;
 }
 
 .lightbox-caption {
