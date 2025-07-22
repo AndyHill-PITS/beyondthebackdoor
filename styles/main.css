@@ -216,21 +216,26 @@ footer {
 .gallery-group img:hover {
   transform: scale(1.05);
 }
+
 .lightbox {
-  display: none;
   position: fixed;
-  z-index: 999;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start; /* Align to top */
   align-items: center;
-  justify-content: center;
+  z-index: 1000;
+  overflow: auto; /* in case image is tall on small screens */
 }
 
 .lightbox-content {
-  position: relative;
-  max-width: 90%;
-  max-height: 90%;
-  margin: auto;
+  margin-top: 2rem; /* some spacing below top */
+  max-width: 90vw;
+  max-height: 90vh;
 }
 
 .lightbox img {
