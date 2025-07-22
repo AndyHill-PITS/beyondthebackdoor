@@ -83,22 +83,52 @@ collections:
           - { label: "Intro text", name: "intro_text", widget: "markdown" }
 
 
-  - name: "gallery"
-    label: "Gallery"
-    files:
-      - label: "Gallery Page"
-        name: "gallery"
-        file: "src/pages/gallery.md"
+  - label: "Gallery"
+    name: "gallery"
+    folder: "gallery"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Welcome Heading", name: "welcome_heading", widget: "string", required: false }
+      - { label: "Intro Text", name: "intro_text", widget: "markdown", required: false }
+      - { label: "Permalink", name: "permalink", widget: "string", default: "gallery/index.html" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "gallery" }
+      - label: "Groups"
+        name: "groups"
+        widget: "list"
+        summary: "{{fields.group_title}}"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - label: "Image Groups"
-            name: "groups"
+          - { label: "Group Title", name: "group_title", widget: "string" }
+          - label: "Images"
+            name: "images"
             widget: "list"
             fields:
-              - { label: "Group Name", name: "group_name", widget: "string" }
-              - label: "Images"
-                name: "images"
-                widget: "list"
-                fields:
-                  - { label: "Image", name: "image", widget: "image" }
-                  - { label: "Caption", name: "caption", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+              - { label: "Alt Text", name: "alt", widget: "string", required: false }
+
+  - name: "gallery"
+    label: "Gallery"
+    folder: "src/gallery"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "gallery"
+    fields:
+      - { name: "title", label: "Page Title", widget: "string" }
+      - { name: "permalink", label: "Permalink", widget: "string", default: "gallery/index.html" }
+      - { name: "layout", label: "Layout", widget: "hidden", default: "gallery" }
+      - label: "Groups"
+        name: "groups"
+        widget: "list"
+        summary: "{{fields.group_title}}"
+        fields:
+          - { name: "group_title", label: "Group Title", widget: "string" }
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { name: "url", label: "Image", widget: "image" }
+              - { name: "alt", label: "Alt Text", widget: "string" }
+              - { name: "caption", label: "Caption", widget: "string" }

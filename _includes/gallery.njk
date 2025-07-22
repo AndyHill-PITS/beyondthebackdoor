@@ -1,16 +1,40 @@
----
-layout: layout.njk
----
-<h2>{{ title }}</h2>
-<div class="gallery">
+{% extends "layout.njk" %}
+
+{% block content %}
+<section class="content-wrapper">
+  {% if welcome_heading %}
+    <h2>{{ welcome_heading }}</h2>
+  {% endif %}
+
+  {% if intro_text %}
+    <div class="intro-text">
+      {{ intro_text | safe }}
+    </div>
+  {% endif %}
+
   {% for group in groups %}
-    <h3>{{ group.group_title }}</h3>
-    <div class="thumbnail-group">
-      {% for img in group.images %}
-        <a href="{{ img.image }}" data-lightbox="gallery-{{ loop.index0 }}">
-          <img src="{{ img.image }}" alt="{{ img.caption }}" />
-        </a>
+    <h3>{{ group.title }}</h3>
+    <div class="gallery-group">
+      {% for image in group.images %}
+        <img 
+          src="{{ image.image }}" 
+          alt="{{ image.alt | default(image.caption) }}" 
+          data-group="{{ group.title | slug }}" 
+          data-caption="{{ image.caption }}" 
+          onclick="openLightbox(this)" />
       {% endfor %}
     </div>
   {% endfor %}
+</section>
+
+<!-- Lightbox HTML -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="close">&times;</span>
+  <div class="lightbox-content" id="lightbox-img-container">
+    <img id="lightbox-img" src="" alt="" />
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+  </div>
+  <a class="prev" onclick="event.stopPropagation(); changeImage(-1)">&#10094;</a>
+  <a class="next" onclick="event.stopPropagation(); changeImage(1)">&#10095;</a>
 </div>
+{% endblock %}
