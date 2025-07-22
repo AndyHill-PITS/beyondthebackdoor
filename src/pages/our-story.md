@@ -2,9 +2,10 @@
 title: Our Story
 welcome_heading: Our Story
 intro_text: >-
-  The idea for ‘Beyond the Back Door’ has been a number of years in the making,
-  but really developed during the early days of the Covid lockdowns, when, along
-  with so many people, we started spending more and more time in our garden.
+  The idea for **‘Beyond the Back Door’** has been a number of years in the
+  making, but really developed during the early days of the Covid lockdowns,
+  when, along with so many people, we started spending more and more time in our
+  garden.
 
 
   As our children had grown, the back garden had been focussed on their entertainment – for wendy houses, swings, trampolines, football, birthday parties etc etc, but by the late 2010s, as our children started to disappear off to university, we were able to start planning a more grown-up use of the space.
