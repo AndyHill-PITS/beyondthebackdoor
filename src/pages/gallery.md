@@ -2,6 +2,9 @@
 title: Gallery
 layout: gallery
 permalink: gallery/index.html
+welcome_heading: Gallery
+intro_text: >
+  Below are a number of projects undertaken...
 groups:
   - group_title: Front Garden Makeovers
     images:
