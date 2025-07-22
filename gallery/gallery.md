@@ -6,7 +6,7 @@ intro_text: B﻿elow are a number of projects undertaken throughout the redesign
 permalink: gallery/index.html
 layout: gallery
 groups:
-  - group_title: Raised beds for growing herbs, fruits and vegetables
+  - group_title: Raised beds for growing herbs, fruits and veg
     images:
       - image: /images/uploads/20160915_170120.jpg
         caption: Raised bed
