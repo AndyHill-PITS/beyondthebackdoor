@@ -2,7 +2,8 @@
 title: Gallery
 welcome_heading: Gallery
 intro_text: B﻿elow are a number of projects undertaken throughout the redesign
-  of our back garden, building on the theme of 'grow', 'cook', 'eat' and 'relax'
+  of our back garden, building on the theme of 'grow', 'cook', 'eat' and
+  'relax'.
 permalink: gallery/index.html
 layout: gallery
 groups:
