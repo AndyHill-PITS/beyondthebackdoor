@@ -17,7 +17,8 @@
     <div class="gallery-group">
       {% for image in group.images %}
         <img 
-          src="{{ image.image }}" 
+		  src="/images/uploads/thumbs/{{ image.image }}-thumb.jpg"
+          data-full="/images/uploads/full/{{ image.image }}-full.jpg"
           alt="{{ image.alt | default(image.caption) }}" 
           data-group="{{ group.group_title | slug }}" 
           data-caption="{{ image.caption }}" 

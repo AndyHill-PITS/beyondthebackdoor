@@ -27,11 +27,11 @@ document.addEventListener("DOMContentLoaded", () => {
       window.scrollTo({ top: 0, behavior: "instant" });  // or use "smooth" if you prefer
     });
   });
-
   function showImage(imgElement) {
-    lightboxImage.src = imgElement.src;
+    const fullSrc = imgElement.getAttribute("data-full") || imgElement.src;
+    lightboxImage.src = fullSrc;
     lightboxImage.alt = imgElement.alt;
-    lightboxCaption.textContent = imgElement.alt || "";
+    lightboxCaption.textContent = imgElement.getAttribute("data-caption") || imgElement.alt || "";
   }
 
   function navigate(direction) {

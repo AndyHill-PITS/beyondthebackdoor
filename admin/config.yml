@@ -104,6 +104,8 @@ collections:
             name: "images"
             widget: "list"
             fields:
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Caption", name: "caption", widget: "string", required: false }
-              - { label: "Alt Text", name: "alt", widget: "string", required: false }
+            - { label: "Base Name", name: "image", widget: "string" }
+            - { label: "Thumbnail Image", name: "thumbnail", widget: "image", media_folder: "images/uploads/thumbs", public_folder: "/images/uploads/thumbs" }
+            - { label: "Full Image", name: "full", widget: "image", media_folder: "images/uploads/full", public_folder: "/images/uploads/full" }
+            - { label: "Caption", name: "caption", widget: "string", required: false }
+            - { label: "Alt Text", name: "alt", widget: "string", required: false }
