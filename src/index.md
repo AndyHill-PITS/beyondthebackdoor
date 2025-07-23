@@ -19,4 +19,3 @@ section_images:
     alt: Image of full garden showing pergola with sofa and firepit beneath, dining
       area on rear patio, two sheds, BBQ and raised beds to the right
 ---
-T﻿est content
