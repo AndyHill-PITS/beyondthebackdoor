@@ -19,7 +19,7 @@
         <img 
           src="{{ image.image }}" 
           alt="{{ image.alt | default(image.caption) }}" 
-          data-group="{{ group_title | slug }}" 
+          data-group="{{ group.group_title | slug }}" 
           data-caption="{{ image.caption }}" 
           onclick="openLightbox(this)" />
       {% endfor %}
