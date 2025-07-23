@@ -104,7 +104,6 @@ collections:
             name: "images"
             widget: "list"
             fields:
-            - { label: "Base Name", name: "image", widget: "string" }
             - { label: "Thumbnail Image", name: "thumbnail", widget: "image", media_folder: "images/uploads/thumbs", public_folder: "/images/uploads/thumbs" }
             - { label: "Full Image", name: "full", widget: "image", media_folder: "images/uploads/full", public_folder: "/images/uploads/full" }
             - { label: "Caption", name: "caption", widget: "string", required: false }
