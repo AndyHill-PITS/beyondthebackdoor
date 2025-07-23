@@ -24,6 +24,15 @@ groups:
         alt: Edging being put in place between raised beds and lawn area
         thumbnail: /images/uploads/thumbs/rb-003-thumb.jpg
         full: /images/uploads/full/rb-003-full.jpg
+      - thumbnail: /images/uploads/thumbs/rb-004-thumb.jpg
+        full: /images/uploads/full/rb-004-full.jpg
+        caption: Edging now in place
+        alt: Edging between lawn and raised bed area now in place, weed resistant lining
+          in progress
+      - thumbnail: /images/uploads/thumbs/rb-005-thumb.jpg
+        full: /images/uploads/full/rb-005-full.jpg
+        caption: Weed resistant lining now in place area surrounding raised beds
+        alt: Weed resistant lining on area surrounding raised beds now completed
   - group_title: Brick built BBQ
     images:
       - image: /images/uploads/bbq-001.jpg
