@@ -96,6 +96,7 @@ groups:
     images:
       - thumbnail: /images/uploads/thumbs/mp-001-thumb.jpg
         full: /images/uploads/full/mp-001-full.jpg
-        caption: Area cleared (except for existing shed), ready for footing
+        caption: Area cleared (except for existing shed which will require relocation),
+          ready for footing
         alt: Area for future patio cleared, although existing shed will require moving
 ---
