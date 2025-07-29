@@ -92,4 +92,10 @@ groups:
         full: /images/uploads/full/bbq-006-full.jpg
         caption: Paving underway
         alt: First four pavers laid on BBQ base
+  - group_title: Main patio area - for dining table and chairs
+    images:
+      - thumbnail: /images/uploads/thumbs/mp-001-thumb.jpg
+        full: /images/uploads/full/mp-001-full.jpg
+        caption: Area cleared (except for existing shed), ready for footing
+        alt: Area for future patio cleared, although existing shed will require moving
 ---
