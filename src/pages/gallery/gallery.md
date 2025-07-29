@@ -84,4 +84,8 @@ groups:
         alt: Concrete footings being laid
         thumbnail: /images/uploads/thumbs/bbq-004-thumb.jpg
         full: /images/uploads/full/bbq-004-full.jpg
+      - thumbnail: /images/uploads/thumbs/bbq-005-thumb.jpg
+        full: /images/uploads/full/bbq-005-full.jpg
+        caption: Footings completed, ready for pavers
+        alt: Completed concrete footings, frame still in place
 ---
