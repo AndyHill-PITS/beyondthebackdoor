@@ -99,4 +99,8 @@ groups:
         caption: Area cleared (except for existing shed which will require relocation),
           ready for footing
         alt: Area for future patio cleared, although existing shed will require moving
+      - thumbnail: /images/uploads/thumbs/mp-002-thumb.jpg
+        full: /images/uploads/full/mp-002-full.jpg
+        caption: More space cleared and mixer at the ready
+        alt: Mixer ready for work
 ---
