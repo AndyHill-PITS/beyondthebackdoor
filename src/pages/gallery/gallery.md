@@ -88,4 +88,8 @@ groups:
         full: /images/uploads/full/bbq-005-full.jpg
         caption: Footings completed, ready for pavers
         alt: Completed concrete footings, frame still in place
+      - thumbnail: /images/uploads/thumbs/bbq-006-thumb.jpg
+        full: /images/uploads/full/bbq-006-full.jpg
+        caption: Paving underway
+        alt: First four pavers laid on BBQ base
 ---
