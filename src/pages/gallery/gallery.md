@@ -125,7 +125,7 @@ groups:
         full: /images/uploads/full/bbq-014-full.jpg
         caption: Metal lined enclosure added for additional flexibiltiy
         alt: Wooden (but metal lined) enclosure added to BBQ for additional flexibility
-  - group_title: Main patio area - for dining table and chairs
+  - group_title: Main patio area - for outside dining
     images:
       - thumbnail: /images/uploads/thumbs/mp-001-thumb.jpg
         full: /images/uploads/full/mp-001-full.jpg
@@ -136,4 +136,40 @@ groups:
         full: /images/uploads/full/mp-002-full.jpg
         caption: More space cleared and mixer at the ready
         alt: Mixer ready for work
+      - thumbnail: /images/uploads/thumbs/mp-003-thumb.jpg
+        full: /images/uploads/full/mp-003-full.jpg
+        caption: Footings underway
+        alt: Footings in progress
+      - thumbnail: /images/uploads/thumbs/mp-004-thumb.jpg
+        full: /images/uploads/full/mp-004-full.jpg
+        caption: Footings progressing
+        alt: Footings progressing
+      - thumbnail: /images/uploads/thumbs/mp-005-thumb.jpg
+        full: /images/uploads/full/mp-005-full.jpg
+        caption: Lighting being installed
+        alt: Lighting being installed to illuminate front wall of patio
+      - thumbnail: /images/uploads/thumbs/mp-006-thumb.jpg
+        full: /images/uploads/full/mp-006-full.jpg
+        caption: Patio slabs ready for laying
+        alt: Patio slabs stacked ready for laying
+      - thumbnail: /images/uploads/thumbs/mp-007-thumb.jpg
+        full: /images/uploads/full/mp-007-full.jpg
+        caption: First slabs laid, checking the circle
+        alt: First slabs laid, slabs for circle being positioned
+      - thumbnail: /images/uploads/thumbs/mp-010-thumb.jpg
+        full: /images/uploads/full/mp-010-full.jpg
+        caption: Most slabs laid - shed will need to be moved to complete the rest
+        alt: Most slabs now laid, but current location of shed is preventing completion
+      - thumbnail: /images/uploads/thumbs/mp-011-thumb.jpg
+        full: /images/uploads/full/mp-011-full.jpg
+        caption: Surrounding wall with integrated lighting in progress
+        alt: Surrounding wall, including integrated light bricks, being built
+      - thumbnail: /images/uploads/thumbs/mp-013-thumb.jpg
+        full: /images/uploads/full/mp-013-full.jpg
+        caption: Disassembling, rotating and reassembling the shed
+        alt: Existing shed being rotated to provide more space
+      - thumbnail: /images/uploads/thumbs/mp-014-thumb.jpg
+        full: /images/uploads/full/mp-014-full.jpg
+        caption: Completed patio with dining table in place - rear fence also renewed
+        alt: Completed patio, with dining table in place - rear fence also renewed
 ---
