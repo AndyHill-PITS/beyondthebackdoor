@@ -112,6 +112,19 @@ groups:
         full: /images/uploads/full/bbq-011-full.jpg
         caption: Checking positioning of BBQ - supported on protruding bricks
         alt: Checking BBQ fits correctly - supported on protruding bricks
+      - thumbnail: /images/uploads/thumbs/bbq-012-thumb.jpg
+        full: /images/uploads/full/bbq-012-full.jpg
+        caption: BBQ racks in place and worktops added
+        alt: BBQ racks in place, supported on metal lugs, and worktops added to
+          cupboards either side
+      - thumbnail: /images/uploads/thumbs/bbq-013-thumb.jpg
+        full: /images/uploads/full/bbq-013-full.jpg
+        caption: Cupboard doors added
+        alt: Wooden, green painted doors added to cupboards either side
+      - thumbnail: /images/uploads/thumbs/bbq-014-thumb.jpg
+        full: /images/uploads/full/bbq-014-full.jpg
+        caption: Metal lined enclosure added for additional flexibiltiy
+        alt: Wooden (but metal lined) enclosure added to BBQ for additional flexibility
   - group_title: Main patio area - for dining table and chairs
     images:
       - thumbnail: /images/uploads/thumbs/mp-001-thumb.jpg
