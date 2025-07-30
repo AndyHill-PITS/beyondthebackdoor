@@ -92,6 +92,10 @@ groups:
         full: /images/uploads/full/bbq-006-full.jpg
         caption: Paving underway
         alt: First four pavers laid on BBQ base
+      - thumbnail: /images/uploads/thumbs/bbq-007-thumb.jpg
+        full: /images/uploads/full/bbq-007-full.jpg
+        caption: Pavers progressing
+        alt: 12 pavers laid - final edge to complete
   - group_title: Main patio area - for dining table and chairs
     images:
       - thumbnail: /images/uploads/thumbs/mp-001-thumb.jpg
