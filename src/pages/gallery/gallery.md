@@ -182,4 +182,20 @@ groups:
         full: /images/uploads/full/sap-002-full.jpg
         caption: Slab laying in progress
         alt: First slabs in place
+      - thumbnail: /images/uploads/thumbs/sap-003-thumb.jpg
+        full: /images/uploads/full/sap-003-full.jpg
+        caption: Slabs laid and backing wall completed
+        alt: Slabs laid, and backing wall (for raised bed) completed
+      - thumbnail: /images/uploads/thumbs/sap-004-thumb.jpg
+        full: /images/uploads/full/sap-004-full.jpg
+        caption: Sofa and table with firepit in place
+        alt: Sofa and table with firepit in place
+      - thumbnail: /images/uploads/thumbs/sap-005-thumb.jpg
+        full: /images/uploads/full/sap-005-full.jpg
+        caption: Timber (100mm x 100mm  and 125mm x 50mm) for pergola
+        alt: Timber for pergola, ready to be prepared
+      - thumbnail: /images/uploads/thumbs/sap-006-thumb.jpg
+        full: /images/uploads/full/sap-006-full.jpg
+        caption: Joints being cut into timber
+        alt: Joints being cut into timber
 ---
