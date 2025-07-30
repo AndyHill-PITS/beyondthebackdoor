@@ -92,6 +92,39 @@ groups:
         full: /images/uploads/full/bbq-006-full.jpg
         caption: Paving underway
         alt: First four pavers laid on BBQ base
+      - thumbnail: /images/uploads/thumbs/bbq-007-thumb.jpg
+        full: /images/uploads/full/bbq-007-full.jpg
+        caption: Pavers progressing
+        alt: 12 pavers laid - final edge to complete
+      - thumbnail: /images/uploads/thumbs/bbq-008-thumb.jpg
+        full: /images/uploads/full/bbq-008-full.jpg
+        caption: Pavers complete, brickwork being arranged
+        alt: First bricks being arranged on top of completed paved base
+      - thumbnail: /images/uploads/thumbs/bbq-009-thumb.jpg
+        full: /images/uploads/full/bbq-009-full.jpg
+        caption: Brckwork underway
+        alt: First 2 courses of bricks in place
+      - thumbnail: /images/uploads/thumbs/bbq-010-thumb.jpg
+        full: /images/uploads/full/bbq-010-full.jpg
+        caption: Brickwork progressing
+        alt: Brickwork progressing - 6 courses complete, 7th in progress
+      - thumbnail: /images/uploads/thumbs/bbq-011-thumb.jpg
+        full: /images/uploads/full/bbq-011-full.jpg
+        caption: Checking positioning of BBQ - supported on protruding bricks
+        alt: Checking BBQ fits correctly - supported on protruding bricks
+      - thumbnail: /images/uploads/thumbs/bbq-012-thumb.jpg
+        full: /images/uploads/full/bbq-012-full.jpg
+        caption: BBQ racks in place and worktops added
+        alt: BBQ racks in place, supported on metal lugs, and worktops added to
+          cupboards either side
+      - thumbnail: /images/uploads/thumbs/bbq-013-thumb.jpg
+        full: /images/uploads/full/bbq-013-full.jpg
+        caption: Cupboard doors added
+        alt: Wooden, green painted doors added to cupboards either side
+      - thumbnail: /images/uploads/thumbs/bbq-014-thumb.jpg
+        full: /images/uploads/full/bbq-014-full.jpg
+        caption: Metal lined enclosure added for additional flexibiltiy
+        alt: Wooden (but metal lined) enclosure added to BBQ for additional flexibility
   - group_title: Main patio area - for dining table and chairs
     images:
       - thumbnail: /images/uploads/thumbs/mp-001-thumb.jpg
@@ -99,4 +132,8 @@ groups:
         caption: Area cleared (except for existing shed which will require relocation),
           ready for footing
         alt: Area for future patio cleared, although existing shed will require moving
+      - thumbnail: /images/uploads/thumbs/mp-002-thumb.jpg
+        full: /images/uploads/full/mp-002-full.jpg
+        caption: More space cleared and mixer at the ready
+        alt: Mixer ready for work
 ---
