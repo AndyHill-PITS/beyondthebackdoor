@@ -125,7 +125,7 @@ groups:
         full: /images/uploads/full/bbq-014-full.jpg
         caption: Metal lined enclosure added for additional flexibiltiy
         alt: Wooden (but metal lined) enclosure added to BBQ for additional flexibility
-  - group_title: Main patio area - for dining table and chairs
+  - group_title: Main patio area - for outside dining
     images:
       - thumbnail: /images/uploads/thumbs/mp-001-thumb.jpg
         full: /images/uploads/full/mp-001-full.jpg
