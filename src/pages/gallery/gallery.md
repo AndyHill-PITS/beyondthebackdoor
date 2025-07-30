@@ -96,6 +96,22 @@ groups:
         full: /images/uploads/full/bbq-007-full.jpg
         caption: Pavers progressing
         alt: 12 pavers laid - final edge to complete
+      - thumbnail: /images/uploads/thumbs/bbq-008-thumb.jpg
+        full: /images/uploads/full/bbq-008-full.jpg
+        caption: Pavers complete, brickwork being arranged
+        alt: First bricks being arranged on top of completed paved base
+      - thumbnail: /images/uploads/thumbs/bbq-009-thumb.jpg
+        full: /images/uploads/full/bbq-009-full.jpg
+        caption: Brckwork underway
+        alt: First 2 courses of bricks in place
+      - thumbnail: /images/uploads/thumbs/bbq-010-thumb.jpg
+        full: /images/uploads/full/bbq-010-full.jpg
+        caption: Brickwork progressing
+        alt: Brickwork progressing - 6 courses complete, 7th in progress
+      - thumbnail: /images/uploads/thumbs/bbq-011-thumb.jpg
+        full: /images/uploads/full/bbq-011-full.jpg
+        caption: Checking positioning of BBQ - supported on protruding bricks
+        alt: Checking BBQ fits correctly - supported on protruding bricks
   - group_title: Main patio area - for dining table and chairs
     images:
       - thumbnail: /images/uploads/thumbs/mp-001-thumb.jpg
