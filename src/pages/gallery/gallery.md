@@ -198,4 +198,28 @@ groups:
         full: /images/uploads/full/sap-006-full.jpg
         caption: Joints being cut into timber
         alt: Joints being cut into timber
+      - thumbnail: /images/uploads/thumbs/sap-008-thumb.jpg
+        full: /images/uploads/full/sap-008-full.jpg
+        caption: Frame in place
+        alt: Frame of pergola in place
+      - thumbnail: /images/uploads/thumbs/sap-009-thumb.jpg
+        full: /images/uploads/full/sap-009-full.jpg
+        caption: Remaining cross-peices added
+        alt: Remaining cross-pieces added to top
+      - full: /images/uploads/full/sap-010-full.jpg
+        thumbnail: /images/uploads/thumbs/sap-010-thumb.jpg
+        caption: Retractable sun-shade being installed
+        alt: Retractable sun-shade being installed
+      - thumbnail: /images/uploads/thumbs/sap-011-thumb.jpg
+        full: /images/uploads/full/sap-011-full.jpg
+        caption: Sun-shade extended and from below
+        alt: Sun-shade extended and from below
+      - thumbnail: /images/uploads/thumbs/sap-013-thumb.jpg
+        full: /images/uploads/full/sap-013-full.jpg
+        caption: Alternative protection for showers
+        alt: Alternative protection for showers
+      - full: /images/uploads/full/sap-012-full.jpg
+        caption: The completed project
+        thumbnail: /images/uploads/thumbs/sap-012-thumb.jpg
+        alt: Completed pergola with sofa and firepit table
 ---
