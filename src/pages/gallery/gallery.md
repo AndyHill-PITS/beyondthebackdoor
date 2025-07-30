@@ -154,7 +154,7 @@ groups:
         alt: Patio slabs stacked ready for laying
       - thumbnail: /images/uploads/thumbs/mp-007-thumb.jpg
         full: /images/uploads/full/mp-007-full.jpg
-        caption: First slabs laid, checking the circle
+        caption: First slabs laid, checking the positioning of the circle
         alt: First slabs laid, slabs for circle being positioned
       - thumbnail: /images/uploads/thumbs/mp-010-thumb.jpg
         full: /images/uploads/full/mp-010-full.jpg
@@ -172,4 +172,14 @@ groups:
         full: /images/uploads/full/mp-014-full.jpg
         caption: Completed patio with dining table in place - rear fence also renewed
         alt: Completed patio, with dining table in place - rear fence also renewed
+  - group_title: Relaxing area with pergola
+    images:
+      - thumbnail: /images/uploads/thumbs/sap-001-thumb.jpg
+        full: /images/uploads/full/sap-001-full.jpg
+        caption: Preparing area
+        alt: Prior patio slabs removed to prepare area
+      - thumbnail: /images/uploads/thumbs/sap-002-thumb.jpg
+        full: /images/uploads/full/sap-002-full.jpg
+        caption: Slab laying in progress
+        alt: First slabs in place
 ---
