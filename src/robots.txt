@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://btbd-gardendesign.co.uk/sitemap.xml
