@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/sitemap.xml");
 
   // Passthrough only the specific CMS files
   eleventyConfig.addPassthroughCopy({ "static-admin/cms.html": "admin/index.html" });
