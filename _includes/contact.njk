@@ -8,7 +8,7 @@
       <p>{{ intro_text | safe }}</p>
     {% endif %}
 
-    <form action="https://formspree.io/f/myzjvpld" method="POST" class="contact-form">
+    <form action="https://formsubmit.co/enquiries@btbd-gardendesign.co.uk" method="POST" class="contact-form">
 
       <div class="form-group">
         <label for="name">Name:</label>
@@ -29,8 +29,9 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="6" required></textarea>
       </div>
-
-      <input type="hidden" name="_redirect" value="https://beyondthebackdoor.uk/thank-you.html">
+      
+	  <input type="hidden" name="_autoresponse" value="false">
+      <input type="hidden" name="_next" value="https://btbd-gardendesign.co.uk/thank-you.html">
 
       <button type="submit">Send</button>
     </form>
