@@ -1,2 +1,10 @@
 /.netlify/identity/*  /admin/cms.html  200
 /admin/*              /admin/cms.html  200
+
+
+https://btbd.co.uk/*               https://btbd-gardendesign.co.uk/:splat  301!
+http://btbd.co.uk/*                https://btbd-gardendesign.co.uk/:splat  301!
+https://btbdgardendesign.co.uk/*  https://btbd-gardendesign.co.uk/:splat  301!
+http://btbdgardendesign.co.uk/*   https://btbd-gardendesign.co.uk/:splat  301!
+https://beyondthebackdoor.uk/*    https://btbd-gardendesign.co.uk/:splat  301!
+http://beyondthebackdoor.uk/*     https://btbd-gardendesign.co.uk/:splat  301!
