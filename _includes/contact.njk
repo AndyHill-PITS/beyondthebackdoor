@@ -8,9 +8,12 @@
       <p>{{ intro_text | safe }}</p>
     {% endif %}
 
-    <form action="https://formsubmit.co/39967eafec807e7ba02271df4438a8c8" method="POST" class="contact-form">
-
-      <div class="form-group">
+    <form action="https://formsubmit.co/enquiries@btbd-gardendesign.co.uk" method="POST" class="contact-form">
+	
+      <input type="hidden" name="_next" value="https://btbd-gardendesign.co.uk/thank-you.html">
+      <input type="text" name="_honey" style="display:none">
+      
+	  <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
       </div>
@@ -31,8 +34,7 @@
       </div>
       
 	  <input type="hidden" name="_autoresponse" value="false">
-      <input type="hidden" name="_redirect" value="https://btbd-gardendesign.co.uk/thank-you.html">
-
+      
       <button type="submit">Send</button>
     </form>
 
