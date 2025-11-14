@@ -15,6 +15,8 @@ intro_text: >-
 
 
 
+
+
   ### Full design of your perfect outdoor living space
 
 
@@ -22,6 +24,8 @@ intro_text: >-
 
 
   *O﻿nce we've established and agreed the outline, we can then proceed to a more detailed design, including specifications for any landscaping work that may be needed.  We'll also include details for planting, with the aim of sustaining interest and colour all year round - and selecting plants that suit the amount of care and maintenance you want to commit to.*
+
+
 
 
 
