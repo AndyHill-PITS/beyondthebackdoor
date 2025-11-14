@@ -19,7 +19,7 @@ intro_text: >-
   A﻿fter a long career in IT, designing and delivering systems for many well-known organisations, it's time for something a little more personal, and I'm keen to use the skills I've developed to help others make the most of their outside space.
 
 
-  T﻿here  are a surprising number of parallels with my prior career.  Everything starts with a detailed undestanding of the requirements, and working out how best these can be fulfilled, making the absolute most of the space available, whilst bearing in mind any budgetary constraints.  Implenentation starts with planning the activities, working out what resources are required, and identifying the dependencies between the tasks.
+  T﻿here  are a surprising number of parallels with my prior career.  Everything starts with a detailed undestanding of the requirements, and working out how best these can be fulfilled, making the absolute most of the space available, whilst bearing in mind any budgetary constraints.  Implementation starts with planning the activities, working out what resources are required, and identifying the dependencies between the tasks.
 
 
   Whatever your situation – large space or small, whether you want a full scale revamp, or just some minor enhancements, whether you spend a lot of time in the garden, or just like to admire it from the kitchen window, give us a call, and we’ll work with you to develop some ideas. If you really like what we come up with, we’ll work with you to help you bring them to life.
