@@ -20,7 +20,7 @@ intro_text: >-
   * Once the design is agreed, we will work with suitable providers to ensure the design is fully realised and you can start living the dream!
 section_images:
   - image: /images/uploads/full-garden-v3.jpg
-    caption: Sample Garden Project
+    caption: "The best room in the house!"
 layout: services
 permalink: services/index.html
 ---
