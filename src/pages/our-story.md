@@ -10,7 +10,7 @@ intro_text: >-
   garden.
 
 
-  As our children had grown, the back garden had been focussed on their entertainment – everything from wendy houses, swings, trampolines, football goalposts, birthday parties etc - but by the late 2010s, as our children started to disappear of to university, we were able to start planning a more grown-up use of the space.
+  As our children had grown, the back garden had been focussed on their entertainment – everything from wendy houses, trampolines, and swings, to football goalposts and campout birthday parties etc.    Finally, by the late 2010s, as our children started to disappear of to university, we were able to start planning a more grown-up use of the space. 
 
 
   We’d started this work in 2019, but having some time off work during lockdown allowed us to spend more time in the garden and really make it what we wanted it to be.  It’s continuing to evolve - a garden is never truly 'finished' - but we now have a space that we love to spend time in. and it has made a huge difference to our home environment. 
